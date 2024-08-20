@@ -9,7 +9,15 @@ const Projects = () => {
         <h2 className="title-1">Projects</h2>
         <ul className="projects">
           {projects.map((e, i) => {
-            return <Project key={i} title={e.title} img={e.img} index={i} />;
+            return (
+              <Project
+                key={i}
+                link={e.gitHubLink}
+                title={e.title}
+                img={e.img}
+                index={i}
+              />
+            );
           })}
         </ul>
       </div>

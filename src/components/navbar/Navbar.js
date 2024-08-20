@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>Freelancer</strong> portfolio
+            <strong>My</strong> portfolio
           </NavLink>
 
           <BtnDarkMode />
@@ -28,6 +28,12 @@ const Navbar = () => {
             <li className="nav-list__item">
               <NavLink to="/projects" className={check}>
                 Projects
+              </NavLink>
+            </li>
+
+            <li className="nav-list__item">
+              <NavLink to="/gallery" className={check}>
+                Gallery
               </NavLink>
             </li>
 

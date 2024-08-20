@@ -1,60 +1,76 @@
-import project01 from "./../img/projects/01.jpg";
-import project01Big from "./../img/projects/01-big.jpg";
-
-import project02 from "./../img/projects/02.jpg";
-import project02Big from "./../img/projects/02-big.jpg";
-
-import project03 from "./../img/projects/03.jpg";
-import project03Big from "./../img/projects/03-big.jpg";
-
-import project04 from "./../img/projects/04.jpg";
-import project04Big from "./../img/projects/04-big.jpg";
-
-import project05 from "./../img/projects/05.jpg";
-import project05Big from "./../img/projects/05-big.jpg";
-
-import project06 from "./../img/projects/06.jpg";
-import project06Big from "./../img/projects/06-big.jpg";
+import project01 from "./../img/projects/Brush.jpg";
+import project02 from "./../img/projects/tea.jpg";
+import project03 from "./../img/projects/FocusFrame.jpg";
+import project04 from "./../img/projects/FoodButique.jpg";
+import project05 from "./../img/projects/Velocity.jpg";
+import project06 from "./../img/projects/Aqua.png";
+import project07 from "./../img/projects/CarRepair.jpg";
+import project08 from "./../img/projects/Air.jpg";
+import project09 from "./../img/projects/WebStudio.jpg";
 
 const projects = [
   {
-    title: "Gaming streaming portal",
-    skills: "React, Node.js, MongoDB",
+    title: "Brush Buddy",
+    skills: "Team Project, React, SCSS, Redux, Vite",
     img: project01,
-    imgBig: project01Big,
-    gitHubLink: "https://github.com",
+    imgBig: project01,
+    gitHubLink: "https://github.com/z9877969/brush_buddy_front",
   },
   {
-    title: "Video service",
+    title: "TeaLuxe",
     img: project02,
-    imgBig: project02Big,
-    skills: "React, PHP, MySql",
-    gitHubLink: "https://github.com",
+    imgBig: project02,
+    skills: "HTML, CSS, JS",
+    gitHubLink: "https://github.com/RayChikS/TeaLuxe_Pet-project",
   },
   {
-    title: "Video portal",
+    title: "FocusFrame",
     img: project03,
-    imgBig: project03Big,
-    skills: "Vue JS, Node.js, MongoDB",
-    gitHubLink: "https://github.com",
+    imgBig: project03,
+    skills: "HTML, CSS, JS, Vite",
+    gitHubLink: "https://github.com/RayChikS/FocusFrame",
   },
   {
-    title: "Dating app",
+    title: "FoodButique",
     img: project04,
-    imgBig: project04Big,
-    skills: "React Native",
+    imgBig: project04,
+    skills: "HTML, CSS, JS",
+    gitHubLink: "https://github.com/RayChikS/FoodButique",
   },
   {
-    title: "Landing",
+    title: "Velocity",
     img: project05,
-    imgBig: project05Big,
-    skills: "HTML, SCSS, JS",
+    imgBig: project05,
+    skills: "HTML, CSS, JS",
+    gitHubLink: "https://github.com/RayChikS/Velocity",
   },
   {
-    title: "Gaming community",
+    title: "Aqua Track",
     img: project06,
-    imgBig: project06Big,
-    skills: "React, PHP, MySql",
+    imgBig: project06,
+    skills: "Team Project, React, Redux, Node.js, Vite",
+    gitHubLink: "https://github.com/LMSerhii/frontend-aqua-track-05",
+  },
+  {
+    title: "Car Rapair",
+    img: project07,
+    imgBig: project07,
+    skills: "HTML, CSS",
+    gitHubLink: "https://github.com/RayChikS/Car-Rapair",
+  },
+  {
+    title: "Airpods Max",
+    img: project08,
+    imgBig: project08,
+    skills: "HTML, CSS, JS",
+    gitHubLink: "https://github.com/RayChikS/Airpods-Max",
+  },
+  {
+    title: "WebStudio",
+    img: project09,
+    imgBig: project09,
+    skills: "HTML, CSS, JS",
+    gitHubLink: "https://github.com/RayChikS/WebStudio",
   },
 ];
 

@@ -22,7 +22,7 @@ const ProjectPage = ({ link, imgBig, skills, title }) => {
             <p>{project.skills}</p>
           </div>
 
-          {project.gitHubLink && <BtnGitHub link={project.link} />}
+          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
         </div>
       </div>
     </main>
