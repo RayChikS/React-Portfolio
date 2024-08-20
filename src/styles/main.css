@@ -47,7 +47,7 @@
 
 html,
 body {
-  min-height: 100vh;
+  height: 100vh;
 
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
@@ -58,11 +58,11 @@ body {
 }
 
 #root {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .app {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }

@@ -9,6 +9,7 @@ import Contacts from "./pages/Contacts";
 import ProjectPage from "./pages/ProjectPage";
 
 import ScrollToTop from "./helpers/scrollToTop";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/project/:id" element={<ProjectPage />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
