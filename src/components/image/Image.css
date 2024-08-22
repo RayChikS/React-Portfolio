@@ -1,0 +1,12 @@
+.image {
+  max-width: 370px;
+  background-color: var(--project-card-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  max-height: 280px;
+  overflow: hidden;
+}
+
+.image__img {
+  border-radius: 10px;
+}

@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
 import ProjectPage from "./pages/ProjectPage";
+import ImagePage from "./pages/ImagePage";
 
 import ScrollToTop from "./helpers/scrollToTop";
 import Gallery from "./pages/Gallery";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/project/:id" element={<ProjectPage />} />
+          <Route path="/gallery/:id" element={<ImagePage />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
         <Footer />
